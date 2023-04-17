@@ -1,3 +1,64 @@
+/* diagnostic styling */
+* {
+    outline: 1px dotted gray;
+}
+
+/* layout */
 body {
-    background: rgb(89, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* scene */
+.scene {
+    width: 300px;
+    height: 400px;
+    /* space between card-scenes */
+    margin: 16px;
+
+    /* set perspective   */
+    perspective: 600px;
+}
+
+/* card */
+.card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    cursor: pointer;
+    transition: transform 1s;
+
+    /* preserve child 3d   */
+    transform-style: preserve-3d;
+}
+
+/* face */
+.face {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    /* hide back face   */
+    backface-visibility: hidden;
+}
+
+.front {
+    background: coral;
+}
+
+.back {
+    background: cornflowerblue;
+    /* flip it default   */
+    transform: rotateY(180deg);
+}
+
+/* flip card
+  * toggle with JS
+  */
+.flipped {
+    transform: rotateY(180deg);
 }
