@@ -12,15 +12,16 @@ body {
 }
 
 
-/* scene */
+/* scene (the cards), objects (stuff within the cards), faces (font and back of teh cards)*/
 .scene {
     width: 300px;
     height: 400px;
     /* space between card-scenes */
     margin: 16px;
+    border-radius: 20px;
 
     /* set perspective   */
-    perspective: 600px;
+    perspective: 300px;
 }
 
 /* card */
@@ -28,11 +29,12 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+    border-radius: 20px;
 
     cursor: pointer;
     transition: transform 1s;
 
-    /* preserve child 3d   */
+    /* preserve child 3d ( */
     transform-style: preserve-3d;
 }
 
@@ -48,6 +50,7 @@ body {
 
 .front {
     background: coral;
+    border-radius: 20px;
 }
 
 .back {
@@ -61,4 +64,18 @@ body {
   */
 .flipped {
     transform: rotateY(180deg);
+}
+
+h1{
+
+}
+
+p {
+    color: white;
+    margin: 25px;
+    columns: 2;
+}
+
+@media only screen and (max-width: 30em){
+
 }
