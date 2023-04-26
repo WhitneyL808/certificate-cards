@@ -200,13 +200,27 @@ width: 50%
 /* End of overlay */
 
 /* Media Tablet */
-@media only screen and (max-width: 600px){
-    background-color: blue;
+@media only screen and (max-width: 800px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* background-color: #D74826; */
+    };
 
 }
 
-/* Media Phone
-@media only screen and (max-width: 400px){
-   background-color: red; 
+/* Media Phone */
+@media only screen and (max-width: 550px){
+    body{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        /* background-color: red; */
+    };
 
-} */
+}

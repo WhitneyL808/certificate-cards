@@ -24,3 +24,4 @@ Promotional site to showcase Dept of Design Certificates.
 - [Kaua'i img](https://www.gohawaii.com/islands/kauai)
 - [img adjuster refrence](https://codepen.io/whitney-lugo/pen/XWZmeBx)
 - [Footer](https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/)
+- [Media](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
