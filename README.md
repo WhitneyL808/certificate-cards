@@ -1,14 +1,14 @@
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/certificate-cards)
 
-# Personal/Work Cards
+# Certficate cards 
 
 > Extend Your Education.
 
 Promotional site to showcase Dept of Design Certificates. 
 
 ## Why Does This Exist?
-- Cards to know about me and quick easy access to my social media
-- Promote me and my work
+- Cards to know about the deisgn certifications
+- Promote gettin certifications 
 - Provide for place to link to from other sites
 
 ## Tutorials
