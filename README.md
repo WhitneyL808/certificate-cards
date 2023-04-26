@@ -1,14 +1,14 @@
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ewuweblab/certificate-cards)
 
-# Certificate Cards
+# Personal/Work Cards
 
 > Extend Your Education.
 
 Promotional site to showcase Dept of Design Certificates. 
 
 ## Why Does This Exist?
-- Standalone site to showcase certificates
-- Promote current and future Dept of Design Certificates
+- Cards to know about me and quick easy access to my social media
+- Promote me and my work
 - Provide for place to link to from other sites
 
 ## Tutorials
@@ -25,3 +25,4 @@ Promotional site to showcase Dept of Design Certificates.
 - [img adjuster refrence](https://codepen.io/whitney-lugo/pen/XWZmeBx)
 - [Footer](https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/)
 - [Media](https://www.w3schools.com/cssref/css3_pr_mediaquery.php)
+- [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
