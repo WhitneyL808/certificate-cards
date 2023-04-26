@@ -20,3 +20,7 @@ Promotional site to showcase Dept of Design Certificates.
 ## Citations
 - [3D Card Flip](https://codepen.io/desandro/pen/LmWoWe)
 - [3D Product Cards by Zac](https://codepen.io/zremboldt/pen/ZvQjOG)
+- [Hover effect overlay](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade)
+- [Kaua'i img](https://www.gohawaii.com/islands/kauai)
+- [img adjuster refrence](https://codepen.io/whitney-lugo/pen/XWZmeBx)
+- [Footer](https://www.geeksforgeeks.org/how-to-create-footer-to-stay-at-the-bottom-of-a-web-page/)

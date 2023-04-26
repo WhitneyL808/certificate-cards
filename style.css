@@ -40,6 +40,8 @@ body {
 
     /* preserve child 3d ( */
     transform-style: preserve-3d;
+
+    box-shadow: 10px 10px 5px gray;
 }
 
 /* face */
@@ -113,9 +115,25 @@ strong{
     color: #D74826;
 }
 
-@media only screen and (max-width: 30em){
+footer{
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
 
+    /* Height of the footer*/
+    height: 30px;
+    background: #D74826;
+    opacity: 90%;
+    text-align: center;
 }
+
+#footer-text{
+    font-family: Nunito;
+    font-weight: 800;
+    color: #F0F8FF;
+}
+
 
 /* Start of cover / hover aniamtion */
 /* This is the overlay for card */
@@ -180,3 +198,15 @@ width: 50%
     text-align: center;
   }
 /* End of overlay */
+
+/* Media Tablet */
+@media only screen and (max-width: 600px){
+    background-color: blue;
+
+}
+
+/* Media Phone
+@media only screen and (max-width: 400px){
+   background-color: red; 
+
+} */
